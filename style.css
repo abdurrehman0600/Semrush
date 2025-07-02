@@ -1,0 +1,72 @@
+.a {
+  background-color: black;
+  color: grey;
+  font-size: larger;
+  padding: 0;
+  margin: 0;
+}
+.a ul {
+  display: flex;
+  justify-content: center;
+  justify-content: flex-end;
+  background-color: black;
+  color: grey;
+  font-size: larger;
+  padding: 0;
+  margin: 0;
+}
+
+.a ul li {
+  margin-right: 40px;
+}
+.bod{
+    background-color: blueviolet;
+}
+.likh{
+    display:flex;
+    justify-content: center;
+   justify-content: space-around;
+    color: aliceblue;
+    font-size: 20px;
+    font-style: oblique;
+}
+button {
+  background-color:black;
+  color: white;
+  padding: 10px 20px;
+  border-color: azure;
+}
+
+button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+#hara{
+    background-color: green;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-color: azure;
+}
+#hara:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+#titl{
+    color: white;
+}
+#input{
+    display: flex;
+    justify-content: center;
+    size: 20px;
+}
+#ab{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#ac{
+    display: flex;
+    justify-content: space-around;
+}
+
+
