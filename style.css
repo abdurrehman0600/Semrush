@@ -1,14 +1,14 @@
-.test{
+ .test{
     border : 1px, solid red;
 }
-.a {
+/* .nav{
   background-color: black;
   color: grey;
   font-size: larger;
   padding: 0;
   margin: 0;
 }
-.a ul {
+.nav ul {
   display: flex;
   justify-content: center;
   justify-content: flex-end;
@@ -19,13 +19,28 @@
   margin: 0;
 }
 
-.a ul li {
+.nav ul li {
   margin-right: 40px;
-}
+} */ 
+ .nav{
+  background-color: black;
+  color:grey;
+  display:flex;
+  justify-content: space-between;
+
+ }
+ .ul{
+  display:flex;
+  justify-content: space-around;
+  padding:5px;
+  margin: 2px;
+  
+ }
 .bod{
     background-color: blueviolet;
 }
-.likh{
+
+/* .likh{
     display:flex;
     justify-content: center;
    justify-content: space-around;
@@ -54,7 +69,7 @@ button:hover {
     background-color: aliceblue;
     cursor: pointer;
 }
-#titl{
+#logo{
     color: white;
 }
 #input{
@@ -67,9 +82,7 @@ button:hover {
     flex-direction: row;
     justify-content: center;
 }
-#ac{
+#overallnav{
     display: flex;
     justify-content: space-around;
-}
-
-
+} */
