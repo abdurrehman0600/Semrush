@@ -1,6 +1,6 @@
-    /* *{
+  *{
     border : 1px, solid red;
-}    */
+}      
 .image{
   height: 800x;
   width: 1300px;
@@ -32,6 +32,13 @@
   display:flex;
   justify-content: space-around;
 
+ }
+ .firstimage{
+  display: flex;
+ }
+ .firsttxt{
+  width: 1px;
+  height: 1px;
  }
  .ul{
   display:flex;
@@ -101,6 +108,46 @@ background-color: purple;
 }
 .secondsec{
   background-image: url(semrush.jpeg/enterprise-bg.f5b40f0fcc6f1f1cdbc1.jpg);
+  background-size: cover;        
+  background-repeat: no-repeat;  
+  background-position: center;   
+}
+#secsemrush{
+  color:whitesmoke;
+  font-size:50px;
+  margin-left: 150px;
+  width: 180px;
+  height: 175px;
+
+}
+#secent{
+     color:whitesmoke;
+     font-size: 20px;
+     display: flex;
+ align-items: center;
+}
+.wrap{
+  display: flex;
+} 
+#secdrive{
+     color:rgb(212, 65, 212);
+     font-size: 20px;
+     display: flex;
+     justify-content: space-around;
+     margin-left: 70px;
+      width: 1050px;
+  height: 175px;
+}
+#secbut{
+ color:rgb(18, 12, 12);
+ background-color: white;
+ padding: 30px;
+ display: flex;
+ margin-left: 150px;
+ 
+}
+.secul{
+  color:white;
 }
 /* .likh{
     display:flex;
