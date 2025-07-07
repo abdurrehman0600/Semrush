@@ -1,31 +1,10 @@
-  /* *{
+  *{
     border : 1px, solid red;
-}        */
+}        
 .image{
   height: 800x;
   width: 1300px;
 }
-/* .nav{
-  background-color: black;
-  color: grey;
-  font-size: larger;
-  padding: 0;
-  margin: 0;
-}
-.nav ul {
-  display: flex;
-  justify-content: center;
-  justify-content: flex-end;
-  background-color: black;
-  color: grey;
-  font-size: larger;
-  padding: 0;
-  margin: 0;
-}
-
-.nav ul li {
-  margin-right: 40px;
-} */ 
  .nav{
   background-color: black;
   color:grey;
@@ -142,64 +121,44 @@ background-color: purple;
 .secul{
   color:white;
 }
- /* .thirdsecbgi{
- position: relativ
- } */
- .backimg{
-  margin-right: 10px;
-} 
+/* .thirdsec{
+  display: flex;
+}  */
+  .thirdsecbgi{
+ position: relative;
+ display: inline-block;
+ width: 200vh;
+ 
+ } 
 .overlaytxt{
+    position: absolute;
     color: rgb(6, 6, 6);
     font-size: 24px;
     font-weight: bold;
     background:transparent;  
-    padding: 10px 20px;
+    padding: 10px;
     text-align: center;
     margin-right: 400px;
-}
-/* .likh{
-    display:flex;
-    justify-content: center;
-   justify-content: space-around;
-    color: aliceblue;
-    font-size: 20px;
-    font-style: oblique;
-}
-button {
-  background-color:black;
-  color: white;
-  padding: 10px 20px;
-  border-color: azure;
-}
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 450px;
 
-button:hover {
-  background-color: grey;
-  cursor: pointer;
 }
-#hara{
-    background-color: green;
-    color: aliceblue;
-    padding: 10px 20px;
-    border-color: azure;
+.bhai{
+  display: flex;
+  justify-content: center;
 }
-#hara:hover{
-    background-color: aliceblue;
-    cursor: pointer;
+.tar{
+  display: flex;
+  justify-content: center;
 }
-#logo{
-    color: white;
+.award{
+   display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-weight:bold;
+  font-family:"Factor A", Arial, Helvetica, sans-serif ;
+  
+
 }
-#input{
-    display: flex;
-    justify-content: center;
-    size: 20px;
-}
-#ab{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-#overallnav{
-    display: flex;
-    justify-content: space-around;
-} */
