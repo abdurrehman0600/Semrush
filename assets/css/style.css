@@ -1,6 +1,7 @@
-  /* *{
-    border : 1px, solid red;
-}         */
+* {
+  border: 1px solid red;
+}   
+
 .image{
   height: 800x;
   width: 1300px;
@@ -79,7 +80,7 @@ background-color: purple;
   gap: 30px;
 }
 .secondsec{
-  background-image: url(semrush.jpeg/enterprise-bg.f5b40f0fcc6f1f1cdbc1.jpg);
+  background-image: url(assets/images/enterprise-bg.f5b40f0fcc6f1f1cdbc1.jpg);
   background-size: cover;        
   background-repeat: no-repeat;  
   background-position: center;   
@@ -159,6 +160,63 @@ background-color: purple;
   font-size: 28px;
   font-weight:bold;
   font-family:"Factor A", Arial, Helvetica, sans-serif ;
-  
-
 }
+ .shapes{
+  display:flex;
+  justify-content: space-around;
+  height:20vh;  
+ }
+.heart{
+  position: relative;
+ display: inline-block;
+}
+.tenm{
+  position: absolute;
+    color: rgb(6, 6, 6);
+    font-size: 24px;
+    font-weight: bold;
+    background:transparent;  
+    padding: 10px;
+    text-align: center;
+    margin-right: 400px;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 450px;
+}
+.diamond{
+  position: relative;
+ display: inline-block;
+}
+.twoone{
+  position: absolute;
+    color: rgb(6, 6, 6);
+    font-size: 24px;
+    font-weight: bold;
+    background:transparent;  
+    padding: 10px;
+    text-align: center;
+    margin-right: 400px;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 450px;
+}
+.star{
+  position: relative;
+ display: inline-block;
+}
+.thirty{
+  position: absolute;
+    color: rgb(6, 6, 6);
+    font-size: 24px;
+    font-weight: bold;
+    background:transparent;  
+    padding: 10px;
+    text-align: center;
+    margin-right: 400px;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 450px;
+}  
