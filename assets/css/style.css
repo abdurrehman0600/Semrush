@@ -1,6 +1,6 @@
 /* * {
   border: 1px solid red;
-}      */
+}       */
 
 .image{
   height: 800x;
@@ -163,8 +163,6 @@ background-color: purple;
   display: flex;
   flex-direction: column;
   gap: 80px;
-  margin-bottom: 40px;
-  
 }
 .startpookie{
   font-size: 30px;
@@ -224,4 +222,43 @@ background-color: purple;
   display: flex;
   flex-direction: column;
   gap:120px;
+}
+.merketers{
+  background-color: #421983;
+}
+.mtxt{
+  color:white;
+  display: flex;
+  justify-content: center;
+}
+.mtxtt{
+  color:aliceblue;
+   display: flex;
+  justify-content: center;
+}
+.limage{
+  display: flex;
+  justify-content: center;
+}
+.black{
+  background-color: black;
+}
+.bigblack{
+   color: white;
+}
+.normalblack{
+   color: rgb(104, 100, 100);
+   font-size: 14px;
+}
+.container-text{
+  display: flex;
+  justify-content: space-around;
+}
+.blackheader{
+  display: flex;
+  justify-content: space-around;
+  /* gap:250px */
+}
+.footer{
+  background-color: black;
 }
